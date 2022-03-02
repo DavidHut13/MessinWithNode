@@ -9,8 +9,6 @@ mongoConnect(() => {
     console.log('Connected')
     app.listen(3000)
 });
-
-
 // const db = getDb();
 // db.collection('TestData').InsertOne({Event: 'Test Game', id: 1234})
 
